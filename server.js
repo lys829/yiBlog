@@ -10,12 +10,6 @@ var jade = require('jade');
 
 var blogEngine = require('./blog');
 
-/*http.createServer(function(req, res) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write('<h1>Node.js</h1>');
-    res.end('<p>Hello World</p>');
-}).listen(port);*/
-//console.log(__dirname, process.env);
 app.set('port', process.env.PORT || 3000);
 //设定视图
 app.set('views', path.join(__dirname, 'views'));
