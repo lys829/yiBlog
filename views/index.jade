@@ -1,0 +1,10 @@
+extends ./base
+
+block main
+    h1 文章列表
+
+    each item in entries
+        div
+            a(href='/article/' + item.id)=item.body
+                p=item.time
+
