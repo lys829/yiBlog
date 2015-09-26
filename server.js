@@ -10,7 +10,7 @@ var jade = require('jade');
 
 var blogEngine = require('./blog');
 
-app.set('port', process.env.PORT || 80);
+app.set('port', process.env.PORT || 3000);
 //设定视图
 app.set('views', path.join(__dirname, 'views'));
 
@@ -41,7 +41,14 @@ router.get('/api', api.index);
 var mong = require('./models/data');
 router.get('/con', mong.connect);
 
+//聊天应用
+var chat = require('./controller/chat').http(app);
+router.get('/chat', function (req, res){
+    res.render('chat.jade', {title: '聊天系统'})
+});
+
 //指定根目录
 app.use('/', router);
 
-app.listen(app.get('port'));
+chat.listen(app.get('port'));
+//app.listen(app.get('port'));

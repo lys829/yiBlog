@@ -1,0 +1,11 @@
+extends ./base
+
+block main
+    <div id="content"></div>
+    <div id="login"></div>
+
+    include ./script
+
+    block script
+        script(src='/js/lib/socket.io.js')
+        script(src='/js/client.js' type='text/jsx')
