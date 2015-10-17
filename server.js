@@ -51,4 +51,5 @@ router.get('/chat', function (req, res){
 app.use('/', router);
 
 chat.listen(app.get('port'));
-//app.listen(app.get('port'));
+
+module.exports = chat;
