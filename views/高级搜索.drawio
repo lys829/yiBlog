@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-04T11:44:45.242Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="2cigtzPHF4CkZK6CDOlI" version="12.6.5" type="github">
+<mxfile host="www.draw.io" modified="2020-02-04T12:43:10.426Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="70xeygw0sxgGu-W1e8lL" version="12.6.5" type="github">
   <diagram id="t0lgoztnIuoL1zLsykei" name="第 1 页">
     <mxGraphModel dx="833" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jRjIIvMWt9d5DCrv9Mx3-12" value="同步订单到后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jRjIIvMWt9d5DCrv9Mx3-12" value="前端同步订单&lt;br&gt;到后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="165" width="100" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="jRjIIvMWt9d5DCrv9Mx3-15" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -52,7 +52,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jRjIIvMWt9d5DCrv9Mx3-16" value="后台同步订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jRjIIvMWt9d5DCrv9Mx3-16" value="后端同步订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="165" width="100" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="jRjIIvMWt9d5DCrv9Mx3-22" value="开始高级搜索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
