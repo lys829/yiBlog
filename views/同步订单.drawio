@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-05T01:40:37.053Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="F2T8RwiNj2zchVD_FUCD" version="12.6.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-05T01:46:43.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="LYHrl9zhlphKBzQzLNgT" version="12.6.4" type="github">
   <diagram id="Gt4gEfHvbHCjPT9OlNXh" name="第 1 页">
     <mxGraphModel dx="1233" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="QHd8pDaDNauPfVdDqYuc-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QHd8pDaDNauPfVdDqYuc-36" target="QHd8pDaDNauPfVdDqYuc-37" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="QHd8pDaDNauPfVdDqYuc-36" value="时间切片&lt;br&gt;（时间间隔按天切割）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="QHd8pDaDNauPfVdDqYuc-36" value="时间切片&lt;br&gt;（时间间隔按天分割）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="508.75" y="230" width="172.5" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="QHd8pDaDNauPfVdDqYuc-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="QHd8pDaDNauPfVdDqYuc-37" edge="1">
@@ -195,6 +195,15 @@
         </mxCell>
         <mxCell id="vMBq8Pkii51B8F38cl8o-27" value="上传配置信息，更新这次的同步时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="537.65" y="460" width="114.69" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vMBq8Pkii51B8F38cl8o-34" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="681.25" y="254.5" as="sourcePoint"/>
+            <mxPoint x="860" y="255" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMBq8Pkii51B8F38cl8o-40" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="188" width="190" height="122" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
